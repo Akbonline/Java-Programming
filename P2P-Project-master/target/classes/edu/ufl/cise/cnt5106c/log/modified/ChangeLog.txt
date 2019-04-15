@@ -1,0 +1,29 @@
+LogHelper:
+>Change the package.
+>Calls RemotPeerInfo
+>Added a new Hashmap
+>Integrated getPeerIdsAsString 1 and 2: returns a ArrayList of String type;(Fetch using .get(0) and .get(1))
+>Added IOException e 
+>Changed CONF to PATH
+>Changed _log to newlog
+>Didn't include synchronized
+>Added a new check integer to check the first time RemotPeerInfo entry
+>Changed _l to SessionID
+>Restructured all the functions 
+>Can't change getLogger, it's a function in Logger class
+
+CommonProperties
+>Changed tokens to Str
+>Changed line to query
+>For to while loop
+>replaced Comment char to  "#"
+>Removed Comment char
+>Integrated all the io classes in 1
+
+RemotPeerInfo:
+>Made a ArrayList of list of strings carrying pId,pAddress,pPort and hasFile
+>pId:peerinfo.get(0)    String type
+>pAddress:peerinfo.get(1)   String type
+>pPort:peerinfo.get(2)      String type
+>hasFile:String.valueOf(peerinfo.get(3))    String(Boolean) type
+>Made a new hash function
