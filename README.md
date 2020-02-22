@@ -1,2 +1,2 @@
-# BLOODYFUCKINGJAVA
-MY BATTLE WITH A LANGUAGE THAT I FUCKING HATE 
+Basic to Advance Data Structures and Algorithms using Java
+
